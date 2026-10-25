@@ -1,0 +1,65 @@
+{
+  "v": 4,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-09-22T19:42:17Z"
+  },
+  "title": "এআই-এর আগে ও পরে: এক দশকের পরিসংখ্যানে বাংলা উইকিমিডিয়া",
+  "order": [
+    "title",
+    "machines",
+    "humans",
+    "growth",
+    "crossover",
+    "rhythm",
+    "phones",
+    "estimate",
+    "ekushe",
+    "neighbors",
+    "writers",
+    "community",
+    "mentors",
+    "sisters",
+    "aiwriting",
+    "verify",
+    "survival",
+    "agenda",
+    "thanks",
+    "method",
+    "countries"
+  ],
+  "cover": "title",
+  "sections": {
+    "s1": {
+      "description": "শুরু: যন্ত্র বাড়ছে, মানুষ কমছে",
+      "start": "title"
+    },
+    "s2": {
+      "description": "পাঠক: কী হারিয়েছি, আর পতন কতটা আসল",
+      "start": "growth"
+    },
+    "s3": {
+      "description": "মানুষ: সম্পাদক, নতুনরা, সহপ্রকল্প ও লেখায় এআই",
+      "start": "writers"
+    },
+    "s4": {
+      "description": "এআই-যুগে টিকে থাকা ও আমাদের কাজ",
+      "start": "verify"
+    },
+    "s5": {
+      "description": "পরিশিষ্ট: পদ্ধতি ও প্রশ্নোত্তরের তথ্য",
+      "start": "method"
+    }
+  },
+  "faces": {
+    "anek-bangla": {
+      "family": "Anek Bangla",
+      "href": "https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300..800&display=swap"
+    },
+    "hind-siliguri": {
+      "family": "Hind Siliguri",
+      "href": "https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap"
+    }
+  },
+  "designSystems": []
+}

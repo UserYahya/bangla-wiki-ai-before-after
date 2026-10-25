@@ -1,0 +1,9 @@
+year,agent,peak_hour_bst,trough_hour_bst,trough_to_peak_pct,night_2_6am_to_daily_avg_pct
+2019,spider,16,4,78.5,90.7
+2019,user,21,5,13.6,28.8
+2024,automated,19,3,26.9,55.1
+2024,spider,11,3,81.2,91.4
+2024,user,20,4,14.9,32.2
+2026,automated,12,4,53.2,75.5
+2026,spider,15,4,55.9,72.7
+2026,user,21,4,29.5,48.4
