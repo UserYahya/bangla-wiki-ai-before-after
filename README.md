@@ -1,6 +1,8 @@
 # এআই-এর আগে ও পরে: বাংলা উইকিমিডিয়ার এক দশকের পরিসংখ্যান
 
-বাংলা উইকিসম্মেলন ২০২৬-এর সেশন "এআই-এর আগে ও পরে: এক দশকের পরিসংখ্যানে বাংলা উইকিমিডিয়া প্রকল্পগুলোর পাঠক, সম্পাদক ও টেকসই ভবিষ্যৎ"-এর ডেটা ও কোড।
+বাংলা উইকিসম্মেলন ২০২৬-এর সেশন "এআই-এর আগে ও পরে: এক দশকের পরিসংখ্যানে বাংলা উইকিমিডিয়া প্রকল্পগুলোর পাঠক, সম্পাদক ও টেকসই ভবিষ্যৎ"-এর স্লাইড, ডেটা ও কোড।
+
+স্লাইড: [PDF](deck/bangla-wiki-ai-before-after.pdf) · [PowerPoint (PPTX)](deck/bangla-wiki-ai-before-after.pptx)
 
 সব ডেটা উন্মুক্ত উৎস থেকে নেওয়া: [উইকিমিডিয়া অ্যানালিটিক্স API](https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/), বাংলা উইকিপিডিয়ার [MediaWiki API](https://bn.wikipedia.org/w/api.php) আর [বিশ্বব্যাংক API](https://data.worldbank.org/)। যেকোনো ভাষার সম্প্রদায় নিজের উইকির জন্য স্ক্রিপ্টগুলো চালাতে পারে।
 
@@ -26,8 +28,7 @@ python scripts/extra_data.py
 | `data/derived/` | বটের ভাগ, মোবাইলের ভাগ, প্রতি নতুন অ্যাকাউন্টে সম্পাদনা, সক্রিয় সম্পাদক (মাসে ৫+ সম্পাদনা) |
 | `data/summary/` | পর্বভিত্তিক সারাংশ, প্রতি বছরের একই মাসগুলোর গড়, ইন্টারনেটের সঙ্গে তুলনা |
 | `data/extra/` | `extra_data.py`-এর ফল |
-| `deck/` | সেশনের স্লাইডের সোর্স (claude.ai Slides ফরম্যাট) |
-| `notes/speech_bn.md` | পুরো বক্তৃতা, স্লাইড ধরে |
+| `deck/` | সেশনের স্লাইড, PDF ও PowerPoint (PPTX) ফরম্যাটে; বক্তার নোট PPTX-এ আছে |
 
 ## পদ্ধতি নিয়ে কয়েকটি সতর্কতা
 
@@ -39,6 +40,6 @@ python scripts/extra_data.py
 
 ## English summary
 
-Data and code for a Bangla WikiConference 2026 talk comparing Bangla Wikimedia projects before and after generative AI (January 2016 onwards). `bangla_wiki_data.py` pulls monthly readership (human, crawler and automated-bot pageviews, unique devices), editor and content metrics for Bangla Wikipedia, its sister projects, six Indic-language Wikipedias and English Wikipedia; `extra_data.py` adds hourly reading rhythms, top articles, Content Translation output, deletions under the Bangla Wikipedia speedy-deletion criterion for AI-generated pages (S15), readers by country and a current snapshot. Set `WIKI_CONTACT` and run both scripts; change the wiki lists at the top of each script to study another language.
+Data and code for a Bangla WikiConference 2026 talk comparing Bangla Wikimedia projects before and after generative AI (January 2016 onwards). `bangla_wiki_data.py` pulls monthly readership (human, crawler and automated-bot pageviews, unique devices), editor and content metrics for Bangla Wikipedia, its sister projects, six Indic-language Wikipedias and English Wikipedia; `extra_data.py` adds hourly reading rhythms, top articles, Content Translation output, deletions under the Bangla Wikipedia speedy-deletion criterion for AI-generated pages (S15), readers by country and a current snapshot. Set `WIKI_CONTACT` and run both scripts; change the wiki lists at the top of each script to study another language. The slides are in `deck/` as PDF and PPTX.
 
 Data: Wikimedia Foundation (CC0 for analytics data), World Bank (CC BY 4.0).
